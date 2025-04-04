@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  basket_challenge:
+    build: .
+    container_name: basket_challenge
+    volumes:
+      - .:/app
+    command: "php vendor/bin/phpunit"

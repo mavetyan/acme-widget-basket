@@ -1,0 +1,36 @@
+{
+  "name": "acme-widget-basket/basket",
+  "description": "Acme Widget Basket Challenge (renamed, with Money value object)",
+
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0",
+    "phpstan/phpstan": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AcmeWidget\\Basket\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AcmeWidget\\Basket\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "analyse": "phpstan analyse src tests",
+    "check": [
+      "@test",
+      "@analyse"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
