@@ -1,6 +1,6 @@
 # Acme Widget Basket
 
-Coding challenge for ThriveCart implemented by Mher Avetyan. 
+Implemented by Mher Avetyan. 
 
 This project is a **proof-of-concept** for an e-commerce basket system designed to handle products, special offers, and delivery rules. The example is intentionally concise, aiming to demonstrate good engineering practices, modular code, and easily testable components.
 
